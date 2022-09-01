@@ -50,11 +50,11 @@ public class MapGenerator : MonoBehaviour
         MapDisplay display = FindObjectOfType<MapDisplay>();
         if (drawmode == DrawMode.NoiseMap)
         {
-            display.drawNoiseMap(noiseMap);
+            display.drawTexture(TextureGenerator.textureFromHeightMap(noiseMap));
         }
         else if(drawmode == DrawMode.ColorMap)
         {
-            //display.drawNoiseMap(colorMap);
+            display.drawTexture(TextureGenerator.textureFromColorMap(colorMap,MapWidth,MapHeight));
         }
     }
 

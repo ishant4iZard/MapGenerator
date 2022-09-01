@@ -153,10 +153,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 90fa3649ebcff5f4ebb1826fd57025ac, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  drawmode: 0
+  drawmode: 1
   MapWidth: 100
   MapHeight: 100
-  noiseScale: 27.6
+  noiseScale: 31.98
   octaves: 4
   persistance: 0.5
   lacunarity: 2
